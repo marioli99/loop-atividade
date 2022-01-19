@@ -5,11 +5,12 @@ for (let i=1; i <= 10; i++){
 }
 
 //2 - Criar um loop que conte de 10 até 1 usando WHILE
+var i = 10;
 
-for (let i = 10; i >= 1; i--){
-    console.log(i)
+while (i > 1){
+    console.log(i);
+    i--;
 }
-
 
 //3 - Criar um loop que conte todos os números ímpares de 1 até 100
 
